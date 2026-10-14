@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="description" content="Discover Admire Interiors — a premier architectural and interior design studio in Jubilee Hills, Hyderabad dedicated to quiet luxury, material authenticity, and thoughtful craft.">
+  <meta name="keywords" content="about Admire Interiors, Hyderabad architects, luxury interior atelier Jubilee Hills, bespoke architecture studio Hyderabad, Deccan interior design">
+  <title>About Our Atelier | Admire Interiors • Hyderabad</title>
+  
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-container-high": "#eae8e3",
+            "error-container": "#ffdad6",
+            "surface-container": "#f0eee9",
+            "tertiary": "#16140d",
+            "surface": "#fbf9f4",
+            "tertiary-fixed": "#e9e1d6",
+            "surface-container-highest": "#e4e2dd",
+            "on-primary-fixed-variant": "#484743",
+            "on-surface": "#1b1c19",
+            "outline": "#79776f",
+            "secondary-container": "#e0e5cd",
+            "surface-container-low": "#f5f3ee",
+            "tertiary-fixed-dim": "#cdc5bb",
+            "secondary": "#5b604e",
+            "on-primary-fixed": "#1c1c19",
+            "on-tertiary-fixed": "#1e1b15",
+            "on-tertiary-container": "#958f85",
+            "surface-variant": "#e4e2dd",
+            "on-tertiary-fixed-variant": "#4b463e",
+            "surface-tint": "#605e5a",
+            "inverse-surface": "#30312e",
+            "on-secondary-fixed": "#191d0f",
+            "tertiary-container": "#2b2821",
+            "primary": "#141411",
+            "on-tertiary": "#ffffff",
+            "primary-fixed": "#e6e2dd",
+            "primary-container": "#292825",
+            "inverse-primary": "#cac6c1",
+            "on-secondary-container": "#626753",
+            "on-error-container": "#93000a",
+            "secondary-fixed": "#e0e5cd",
+            "on-secondary": "#ffffff",
+            "outline-variant": "#cac6bd",
+            "on-secondary-fixed-variant": "#444937",
+            "background": "#fbf9f4",
+            "surface-bright": "#fbf9f4",
+            "surface-dim": "#dbdad5",
+            "surface-container-lowest": "#ffffff",
+            "secondary-fixed-dim": "#c4c9b2",
+            "inverse-on-surface": "#f2f1ec",
+            "on-error": "#ffffff",
+            "on-surface-variant": "#484740",
+            "on-primary-container": "#918f8b",
+            "primary-fixed-dim": "#cac6c1",
+            "on-background": "#1b1c19",
+            "error": "#ba1a1a",
+            "on-primary": "#ffffff"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          spacing: {
+            "space-md": "1.5rem",
+            "margin-mobile": "1.25rem",
+            "margin": "4rem",
+            "space-xl": "4rem",
+            "gutter": "2rem",
+            "gutter-mobile": "1rem",
+            "space-sm": "0.75rem",
+            "space-lg": "2.5rem",
+            "space-xs": "0.375rem"
+          },
+          fontFamily: {
+            "display-xl": ["EB Garamond", "serif"],
+            "headline-lg": ["EB Garamond", "serif"],
+            "headline-md": ["EB Garamond", "serif"],
+            "headline-sm": ["EB Garamond", "serif"],
+            "subheading-editorial": ["EB Garamond", "serif"],
+            "body-lg": ["Manrope", "sans-serif"],
+            "body-md": ["Manrope", "sans-serif"],
+            "body-sm": ["Manrope", "sans-serif"],
+            "label-caps": ["Manrope", "sans-serif"]
+          },
+          fontSize: {
+            "display-xl": ["72px", { lineHeight: "80px", letterSpacing: "-0.02em", fontWeight: "400" }],
+            "headline-lg": ["48px", { lineHeight: "56px", letterSpacing: "-0.015em", fontWeight: "400" }],
+            "headline-md": ["36px", { lineHeight: "44px", letterSpacing: "-0.01em", fontWeight: "400" }],
+            "headline-sm": ["24px", { lineHeight: "32px", letterSpacing: "0em", fontWeight: "500" }],
+            "subheading-editorial": ["20px", { lineHeight: "30px", letterSpacing: "0.01em", fontWeight: "400" }],
+            "body-lg": ["18px", { lineHeight: "30px", letterSpacing: "-0.01em", fontWeight: "400" }],
+            "body-md": ["15px", { lineHeight: "24px", letterSpacing: "0em", fontWeight: "400" }],
+            "body-sm": ["13px", { lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "400" }],
+            "label-caps": ["11px", { lineHeight: "16px", letterSpacing: "0.14em", fontWeight: "600" }]
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-surface text-on-surface font-body-md text-body-md antialiased selection:bg-secondary-container selection:text-on-secondary-container">
+
+  <!-- TOP HEADER -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.03)] border-b border-outline-variant/30">
+    <div class="h-20 w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin flex items-center justify-between gap-space-md">
+      
+      <!-- Brand Logo -->
+      <div class="flex items-center gap-space-sm shrink-0">
+        <a class="flex flex-col text-left group" href="index.html">
+          <span class="font-headline-sm text-headline-sm tracking-tight text-primary leading-none group-hover:text-secondary transition-colors duration-200">ADMIRE</span>
+          <span class="font-label-caps text-label-caps text-secondary uppercase tracking-[0.25em] text-[9px] mt-0.5">Interiors • Hyderabad</span>
+        </a>
+      </div>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden lg:flex items-center gap-space-lg">
+        <a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors duration-200" href="index.html">Home</a>
+        <a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors duration-200" href="services.html">Services</a>
+        <a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors duration-200" href="projects.html">Projects</a>
+        <a aria-current="page" class="font-label-caps text-label-caps uppercase transition-colors duration-200 text-primary font-semibold border-b border-primary pb-0.5" href="about.html">About</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-space-sm shrink-0">
+        <button type="button" data-action="open-modal" class="open-consultation-btn hidden sm:inline-flex items-center justify-center h-[44px] px-space-md bg-primary hover:bg-secondary text-on-primary hover:text-on-secondary font-label-caps text-label-caps uppercase tracking-wider transition-colors duration-200 shadow-[0_1px_4px_rgba(0,0,0,0.06)] cursor-pointer">
+          Book a Consultation
+        </button>
+
+        <button id="mobile-menu-toggle" type="button" aria-label="Open Navigation Menu" class="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded bg-surface-container-high text-primary hover:bg-surface-container-highest transition-colors">
+          <span class="material-symbols-outlined text-2xl">menu</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION DRAWER -->
+  <div id="mobile-drawer" class="fixed inset-0 z-[100] hidden">
+    <div id="mobile-drawer-overlay" class="absolute inset-0 bg-primary/60 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+    <div id="mobile-drawer-content" class="absolute top-0 right-0 h-full w-[85%] max-w-sm bg-surface p-6 shadow-2xl flex flex-col justify-between transform translate-x-full transition-transform duration-300 ease-out border-l border-outline-variant/30">
+      <div>
+        <div class="flex items-center justify-between pb-6 border-b border-outline-variant/30">
+          <div class="flex flex-col text-left">
+            <span class="font-headline-sm text-xl tracking-tight text-primary">ADMIRE</span>
+            <span class="font-label-caps text-[9px] text-secondary uppercase tracking-[0.25em]">Interiors • Hyderabad</span>
+          </div>
+          <button id="mobile-menu-close" type="button" aria-label="Close Navigation Menu" class="p-2 text-primary hover:text-secondary">
+            <span class="material-symbols-outlined text-2xl">close</span>
+          </button>
+        </div>
+
+        <nav class="flex flex-col gap-4 mt-8">
+          <a class="font-headline-sm text-2xl text-on-surface-variant font-normal hover:text-primary transition-colors" href="index.html">Home</a>
+          <a class="font-headline-sm text-2xl text-on-surface-variant font-normal hover:text-primary transition-colors" href="services.html">Services &amp; Pricing</a>
+          <a class="font-headline-sm text-2xl text-on-surface-variant font-normal hover:text-primary transition-colors" href="projects.html">Selected Works</a>
+          <a class="font-headline-sm text-2xl text-primary font-normal hover:text-secondary transition-colors" href="about.html">Studio Atelier</a>
+        </nav>
+      </div>
+
+      <div class="pt-6 border-t border-outline-variant/30 flex flex-col gap-3">
+        <button type="button" data-action="open-modal" class="open-consultation-btn w-full h-12 bg-primary text-surface font-label-caps uppercase tracking-wider text-xs flex items-center justify-center">
+          Book Consultation
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]">
+    <div class="flex flex-col w-full">
+
+      <!-- Editorial Hero Banner -->
+      <section class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin pt-space-lg pb-space-xl">
+        <div class="flex flex-col gap-space-sm max-w-4xl">
+          <div class="flex items-center gap-space-xs text-secondary">
+            <span class="font-label-caps text-label-caps uppercase tracking-[0.2em]">Admire Interiors</span>
+            <span class="text-secondary/40 text-xs">/</span>
+            <span class="font-label-caps text-label-caps uppercase tracking-[0.2em] text-on-surface">Practice &amp; Atelier</span>
+          </div>
+          <h1 class="font-display-xl text-4xl sm:text-5xl md:text-display-xl text-primary leading-tight">
+            An Atelier Rooted in <br><span class="italic font-light">Proportion &amp; Patina.</span>
+          </h1>
+          <p class="font-subheading-editorial text-subheading-editorial text-on-surface-variant max-w-2xl leading-relaxed">
+            Founded in Hyderabad with an uncompromising commitment to natural materials, tactile intimacy, and spatial honesty.
+          </p>
+        </div>
+      </section>
+
+      <!-- Studio Philosophy & Story Section -->
+      <section class="w-full bg-surface-container-lowest py-space-xl border-y border-outline-variant/30">
+        <div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+            
+            <div class="lg:col-span-6 flex flex-col gap-space-md">
+              <span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest">Our Genesis</span>
+              <h2 class="font-headline-lg text-3xl sm:text-headline-lg text-primary">
+                A Rejection of Fleeting Décor in Favor of Architecture.
+              </h2>
+              <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                Admire Interiors was established to answer a pressing question in Hyderabad’s rapidly developing residential landscape: <em>How do we create sanctuaries that retain their emotional resonance ten, twenty, or fifty years from now?</em>
+              </p>
+              <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Our practice rejects the sterile, catalog-driven trends dominating modern interiors. Instead, we treat internal volumes as sculptural extensions of the home's architecture. Every line we draw considers the fierce afternoon sun of the Deccan plateau, the soothing breeze of Hyderabad evenings, and the daily rituals of the people who reside within.
+              </p>
+              <div class="p-space-md bg-surface-container-low rounded-lg border-l-2 border-secondary flex flex-col gap-1">
+                <span class="font-label-caps text-[11px] uppercase tracking-widest text-secondary font-semibold">Atelier Rule</span>
+                <p class="font-subheading-editorial text-primary italic">
+                  “If a surface cannot age with dignity, it has no place in our design language.”
+                </p>
+              </div>
+            </div>
+
+            <div class="lg:col-span-6 flex flex-col gap-space-sm">
+              <div class="relative aspect-[4/3] rounded-lg overflow-hidden bg-surface-container border border-outline-variant/30 shadow-md">
+                <img class="w-full h-full object-cover" alt="Admire Interiors Studio Atelier" src="assets/images/atelier_workspace.jpg">
+                <div class="absolute bottom-4 left-4 right-4 bg-surface/90 backdrop-blur-md p-space-sm rounded flex items-center justify-between border border-outline-variant/30">
+                  <div>
+                    <p class="font-headline-sm text-headline-sm text-primary">The Jubilee Hills Atelier</p>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant">Where material boards, architectural prototypes, and client visions convene</p>
+                  </div>
+                  <span class="font-label-caps text-[10px] uppercase bg-secondary-container text-on-secondary-container px-2 py-1 rounded">Studio HQ</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 4 Core Pillars of Practice -->
+      <section class="w-full bg-surface py-space-xl">
+        <div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+          <div class="max-w-2xl mb-space-lg">
+            <span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest">Our Guiding Tenets</span>
+            <h2 class="font-headline-lg text-3xl sm:text-headline-lg text-primary mt-1">Disciplines We Live By</h2>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+            <div class="p-space-md bg-surface-container-low rounded-lg border border-outline-variant/30 flex flex-col justify-between">
+              <div>
+                <span class="font-headline-sm text-3xl text-secondary/40">01</span>
+                <h3 class="font-headline-sm text-xl text-primary mt-2 mb-2">Tactile Honesty</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                  Real unglazed travertine, solid wire-brushed teak, hand-hammered brass, and woven Belgian linen. No synthetic simulations.
+                </p>
+              </div>
+              <span class="font-label-caps text-[10px] uppercase text-secondary tracking-wider mt-4">Pure Materiality</span>
+            </div>
+
+            <div class="p-space-md bg-surface-container-low rounded-lg border border-outline-variant/30 flex flex-col justify-between">
+              <div>
+                <span class="font-headline-sm text-3xl text-secondary/40">02</span>
+                <h3 class="font-headline-sm text-xl text-primary mt-2 mb-2">Deccan Climate Pacing</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                  Sun studies to shield against extreme May heat while harvesting gentle winter illumination through recessed deep reveals and jalis.
+                </p>
+              </div>
+              <span class="font-label-caps text-[10px] uppercase text-secondary tracking-wider mt-4">Contextual Physics</span>
+            </div>
+
+            <div class="p-space-md bg-surface-container-low rounded-lg border border-outline-variant/30 flex flex-col justify-between">
+              <div>
+                <span class="font-headline-sm text-3xl text-secondary/40">03</span>
+                <h3 class="font-headline-sm text-xl text-primary mt-2 mb-2">Artisanal Guild</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                  Permanent guild of master stonemasons, carpenters, and polishers working under daily senior architectural supervision.
+                </p>
+              </div>
+              <span class="font-label-caps text-[10px] uppercase text-secondary tracking-wider mt-4">In-House Mastery</span>
+            </div>
+
+            <div class="p-space-md bg-surface-container-low rounded-lg border border-outline-variant/30 flex flex-col justify-between">
+              <div>
+                <span class="font-headline-sm text-3xl text-secondary/40">04</span>
+                <h3 class="font-headline-sm text-xl text-primary mt-2 mb-2">Open-Book Commercials</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                  Itemized Bill of Quantities with zero ambiguous margins. Total visibility into procurement costs, brand certifications, and timelines.
+                </p>
+              </div>
+              <span class="font-label-caps text-[10px] uppercase text-secondary tracking-wider mt-4">Radical Transparency</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Material Provenance Library -->
+      <section class="w-full bg-surface-container-low py-space-xl border-y border-outline-variant/30">
+        <div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+          <div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-space-xs">
+            <div>
+              <span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest">Sensory Library</span>
+              <h2 class="font-headline-lg text-3xl sm:text-headline-lg text-primary mt-1">Material Provenance &amp; Finishes</h2>
+            </div>
+            <p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+              Every finish is selected directly from reputable quarries and certified timber reserves, tested for humidity resilience.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-space-md">
+            <div class="p-space-md bg-surface rounded-lg border border-outline-variant/30 flex flex-col gap-2">
+              <div class="w-full h-24 rounded bg-[#d9cdbe] flex items-end p-2 text-[10px] font-label-caps uppercase tracking-wider text-primary bg-opacity-90">
+                Tivoli, Italy
+              </div>
+              <h4 class="font-headline-sm text-lg text-primary">Roman Travertine</h4>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">Calibrated 40mm limestone with open porous fissures, honed for cool underfoot touch.</p>
+            </div>
+
+            <div class="p-space-md bg-surface rounded-lg border border-outline-variant/30 flex flex-col gap-2">
+              <div class="w-full h-24 rounded bg-[#5c3e21] flex items-end p-2 text-[10px] font-label-caps uppercase tracking-wider text-surface bg-opacity-90">
+                Bhamo Reserve
+              </div>
+              <h4 class="font-headline-sm text-lg text-primary">Burmese Teak</h4>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">Old-growth quarter-sawn heartwood saturated in natural oils, seasoned against warping.</p>
+            </div>
+
+            <div class="p-space-md bg-surface rounded-lg border border-outline-variant/30 flex flex-col gap-2">
+              <div class="w-full h-24 rounded bg-[#b89758] flex items-end p-2 text-[10px] font-label-caps uppercase tracking-wider text-primary bg-opacity-90">
+                Moradabad Forge
+              </div>
+              <h4 class="font-headline-sm text-lg text-primary">Artisanal Brass</h4>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">Solid hand-patinated hardware, living bronze pulls, and custom threshold inlays.</p>
+            </div>
+
+            <div class="p-space-md bg-surface rounded-lg border border-outline-variant/30 flex flex-col gap-2">
+              <div class="w-full h-24 rounded bg-[#e5ddd0] flex items-end p-2 text-[10px] font-label-caps uppercase tracking-wider text-primary bg-opacity-90">
+                Flanders, Belgium
+              </div>
+              <h4 class="font-headline-sm text-lg text-primary">Belgian Linen</h4>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">Long-staple flax weaves that filter harsh Hyderabad sunlight into atmospheric glow.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bottom CTA: Studio Visit -->
+      <section class="w-full bg-primary text-surface py-space-xl">
+        <div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin text-center">
+          <div class="max-w-2xl mx-auto flex flex-col gap-space-sm items-center">
+            <span class="font-label-caps text-label-caps uppercase text-secondary-fixed tracking-[0.25em]">Visit Our Atelier</span>
+            <h2 class="font-headline-lg text-3xl sm:text-headline-lg text-surface">
+              Experience the Materials Firsthand.
+            </h2>
+            <p class="font-body-lg text-body-md sm:text-body-lg text-surface-container-low leading-relaxed">
+              Touch the unglazed stones, explore tactile mockups, and review floor plans over freshly brewed South Indian filter coffee in our Jubilee Hills studio.
+            </p>
+            <div class="flex flex-wrap items-center justify-center gap-space-sm pt-4">
+              <a class="h-[52px] px-space-lg bg-surface text-primary hover:bg-secondary-fixed hover:text-on-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider flex items-center justify-center transition-colors shadow-md" href="contact.html">
+                Schedule Private Studio Visit
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="w-full bg-surface-container-low text-on-surface pt-space-xl pb-space-lg shadow-[0_-1px_6px_rgba(0,0,0,0.02)] border-t border-outline-variant/30">
+    <div class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter mb-space-xl">
+        <div class="lg:col-span-4 flex flex-col gap-space-sm">
+          <div class="flex items-center gap-space-xs">
+            <span class="font-headline-md text-headline-md text-primary tracking-tight">Admire Interiors</span>
+          </div>
+          <p class="font-body-md text-body-md text-on-surface-variant max-w-sm mt-space-xs leading-relaxed">
+            An architectural practice and interior atelier shaping monolithic, serene, and material-rich residences and commercial sanctuaries across Hyderabad.
+          </p>
+          <div class="flex items-center gap-space-md mt-space-sm">
+            <a class="inline-flex items-center gap-1.5 font-label-caps text-label-caps uppercase text-secondary hover:text-primary transition-colors duration-150" href="https://instagram.com/admire_interiors5755" rel="noopener noreferrer" target="_blank">
+              <span class="material-symbols-outlined text-[16px]">photo_camera</span>@admire_interiors5755
+            </a>
+            <a class="inline-flex items-center gap-1.5 font-label-caps text-label-caps uppercase text-secondary hover:text-primary transition-colors duration-150" href="https://wa.me/919934596600" rel="noopener noreferrer" target="_blank">
+              <span class="material-symbols-outlined text-[16px]">chat</span>WhatsApp Studio
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-2 flex flex-col gap-space-xs">
+          <span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest mb-space-xs">Navigation</span>
+          <nav class="flex flex-col gap-2">
+            <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="index.html">Home Portfolio</a>
+            <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="services.html">Design Services</a>
+            <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="projects.html">Selected Works</a>
+            <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="about.html">Studio Philosophy</a>
+            <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="contact.html">Consultation</a>
+          </nav>
+        </div>
+
+        <div class="lg:col-span-3 flex flex-col gap-space-xs">
+          <span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest mb-space-xs">Hyderabad Focus Areas</span>
+          <ul class="flex flex-col gap-2 font-body-sm text-body-sm text-on-surface-variant">
+            <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-secondary"></span>Jubilee Hills</li>
+            <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-secondary"></span>Banjara Hills</li>
+            <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-secondary"></span>Gachibowli</li>
+            <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-secondary"></span>Hitec City</li>
+            <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-secondary"></span>Financial District &amp; Kokapet</li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-3 flex flex-col gap-space-xs">
+          <span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest mb-space-xs">Inquiry &amp; Atelier Hours</span>
+          <div class="bg-surface p-space-md rounded shadow-[0_1px_4px_rgba(0,0,0,0.02)] flex flex-col gap-2 border border-outline-variant/30">
+            <div class="font-body-sm text-body-sm text-on-surface">
+              <span class="font-medium">Monday – Saturday</span>
+              <p class="text-on-surface-variant">10:00 AM – 7:00 PM IST</p>
+            </div>
+            <div class="font-body-sm text-body-sm text-on-surface">
+              <span class="font-medium">Sunday</span>
+              <p class="text-on-surface-variant">Private Consultation by Appointment</p>
+            </div>
+            <div class="mt-2 pt-2 text-on-surface-variant font-body-sm text-body-sm flex items-center gap-1.5 border-t border-outline-variant/20">
+              <span class="material-symbols-outlined text-[16px] text-secondary">pin_drop</span>
+              <span>Road No. 36, Jubilee Hills, Hyderabad</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-space-md border-t border-outline-variant/20 flex flex-col md:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-body-sm text-body-sm">
+        <p>© 2025 Admire Interiors. All rights reserved. Architectural and bespoke interior execution.</p>
+        <div class="flex items-center gap-space-md font-label-caps text-label-caps uppercase">
+          <a class="hover:text-primary transition-colors" href="contact.html">Private Inquiries</a>
+          <span class="text-outline-variant">•</span>
+          <a class="hover:text-primary transition-colors" href="about.html">Atelier Code</a>
+          <span class="text-outline-variant">•</span>
+          <a class="hover:text-primary transition-colors" href="contact.html">Client Care</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- UNIVERSAL CONSULTATION MODAL / SLIDE-OVER DRAWER -->
+  <div id="consultation-modal" class="fixed inset-0 z-[120] hidden">
+    <div id="consultation-modal-overlay" class="absolute inset-0 bg-primary/70 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+    <div id="consultation-modal-panel" class="absolute top-0 right-0 h-full w-full max-w-xl bg-surface p-6 sm:p-10 shadow-2xl flex flex-col justify-between overflow-y-auto transform translate-x-full opacity-0 transition-all duration-300 ease-out border-l border-outline-variant/40">
+      <div>
+        <div class="flex items-start justify-between pb-6 border-b border-outline-variant/30">
+          <div>
+            <span class="font-label-caps text-[10px] text-secondary uppercase tracking-[0.25em]">Private Atelier Consultation</span>
+            <h3 class="font-headline-md text-2xl sm:text-3xl text-primary mt-1 font-normal">Discuss Your Space</h3>
+          </div>
+          <button type="button" aria-label="Close Modal" class="close-consultation-btn p-2 text-primary hover:text-secondary cursor-pointer">
+            <span class="material-symbols-outlined text-2xl">close</span>
+          </button>
+        </div>
+
+        <p class="font-body-md text-sm text-on-surface-variant mt-4 leading-relaxed">
+          Share your residence details below. Our Principal Architect personally reviews every commission before scheduling an on-site consultation.
+        </p>
+
+        <form class="consultation-form mt-6 flex flex-col gap-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block font-label-caps text-[11px] uppercase tracking-wider text-secondary mb-1">Full Name *</label>
+              <input required type="text" name="client_name" placeholder="e.g. Vikram Rao" class="w-full px-3.5 py-2.5 bg-surface-container-low border border-outline-variant/60 rounded focus:border-secondary focus:bg-surface text-primary font-body-sm text-sm">
+            </div>
+            <div>
+              <label class="block font-label-caps text-[11px] uppercase tracking-wider text-secondary mb-1">WhatsApp / Phone *</label>
+              <input required type="tel" name="client_phone" placeholder="+91 98765 43210" class="w-full px-3.5 py-2.5 bg-surface-container-low border border-outline-variant/60 rounded focus:border-secondary focus:bg-surface text-primary font-body-sm text-sm">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block font-label-caps text-[11px] uppercase tracking-wider text-secondary mb-1">Project Type *</label>
+              <select required name="project_type" class="w-full px-3.5 py-2.5 bg-surface-container-low border border-outline-variant/60 rounded focus:border-secondary focus:bg-surface text-primary font-body-sm text-sm">
+                <option value="Residential Interiors & Bespoke Living">Residential Interiors &amp; Bespoke Living</option>
+                <option value="Modular Kitchens & Custom Wardrobes">Modular Kitchens &amp; Custom Wardrobes</option>
+                <option value="Renovation & Space Transformation">Renovation &amp; Space Transformation</option>
+                <option value="Commercial & Boutique Spaces">Commercial &amp; Boutique Spaces</option>
+              </select>
+            </div>
+            <div>
+              <label class="block font-label-caps text-[11px] uppercase tracking-wider text-secondary mb-1">Enclave Location *</label>
+              <select required name="project_location" class="w-full px-3.5 py-2.5 bg-surface-container-low border border-outline-variant/60 rounded focus:border-secondary focus:bg-surface text-primary font-body-sm text-sm">
+                <option value="Jubilee Hills">Jubilee Hills</option>
+                <option value="Banjara Hills">Banjara Hills</option>
+                <option value="Gachibowli">Gachibowli</option>
+                <option value="Financial District / Kokapet">Financial District / Kokapet</option>
+                <option value="Hitec City / Madhapur">Hitec City / Madhapur</option>
+                <option value="Other Hyderabad Enclave">Other Hyderabad Enclave</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block font-label-caps text-[11px] uppercase tracking-wider text-secondary mb-1">Approximate Carpet Area (sq.ft)</label>
+            <input type="text" name="carpet_area" placeholder="e.g. 3,500 sq.ft" class="w-full px-3.5 py-2.5 bg-surface-container-low border border-outline-variant/60 rounded focus:border-secondary focus:bg-surface text-primary font-body-sm text-sm">
+          </div>
+
+          <div>
+            <label class="block font-label-caps text-[11px] uppercase tracking-wider text-secondary mb-1">Spatial Requirements &amp; Scope</label>
+            <textarea name="project_notes" rows="3" placeholder="Tell us about your space, key architectural preferences (e.g. travertine finishes, natural teak, open courtyard flow)..." class="w-full px-3.5 py-2.5 bg-surface-container-low border border-outline-variant/60 rounded focus:border-secondary focus:bg-surface text-primary font-body-sm text-sm"></textarea>
+          </div>
+
+          <div class="pt-2 flex flex-col gap-3">
+            <button type="submit" class="w-full h-12 bg-primary hover:bg-secondary text-surface font-label-caps text-xs uppercase tracking-widest transition-colors duration-200 cursor-pointer shadow-md flex items-center justify-center gap-2">
+              <span class="material-symbols-outlined text-[18px]">chat</span>
+              <span>Book Consultation via WhatsApp</span>
+            </button>
+            <p class="font-body-sm text-[11px] text-secondary text-center">
+              🔒 Confidentiality Guaranteed • Pre-formatted dossier sent directly to our studio architect.
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Global Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
